@@ -1,0 +1,176 @@
+body {
+    max-width: 100%;
+    max-height: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    background:#0D0D0D;
+}
+
+/* Menu de navegação */
+
+.menu {
+    float: left; 
+    background: #D9A404;
+    width: 15%;
+    height: 100vh;
+}
+
+.lista {
+    margin: 30px auto;
+    padding: 15px;
+}
+
+nav li {
+    display: block;
+    padding: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Página de destaques */
+
+.inicial {
+    text-align: center;
+    display: inline;
+    max-width: 80%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #F82000;
+    padding: 40px 0 10px 0;
+    margin: 15px;
+}
+
+.destaques {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.cardapio {
+    display: inline;
+}
+
+.cardapio li {
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    vertical-align: top;
+    padding: 20px 10px;
+}
+
+.home {
+    height: 50%;
+    width: 50%;
+    border: 2px solid #D9A404;
+}
+
+.home:hover {
+    transform: scale(1.1);
+}
+
+h2 {
+    font-size: 20px;
+    color: red;
+    margin-bottom: 5%;
+}
+
+.galeria {
+    height: 50%;
+    width: 50%;
+    border: 2px solid #D9A404;
+}
+
+.galeria:hover {
+    transform: scale(1.1);
+}
+
+.prato-descricao {
+    padding: 5%;
+}
+
+.prato-valor {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Quem somos */
+
+.principal {
+    text-align: center;
+    display: inline-block;
+    max-width: 80%;
+}
+
+.texto {
+    font-size: 20px;
+    padding: 10px 30px 0;
+}
+
+.restaurante {
+    height: 45%;
+    width: 45%;
+    padding: 15px 0;
+}
+
+.local {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Página de contato */
+
+.formulario {
+    text-align: center;
+    display: inline;
+    max-width: 80%;
+}
+
+form {
+    text-align: center;
+}
+
+form label, form legend {
+    text-align: center;
+    display: block;
+    font-size: 20px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 1% auto;
+    padding: 10px 25px;
+    width: 30%;
+}
+
+.enviar {
+    width: 30%;
+    padding: 15px;
+    background: #D9A404;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: #F82000;
+    transform: scale(1.1);
+}

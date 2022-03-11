@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Komorebi Sushi</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="banner">
+                <h1 class="logo"><img src="logo.png" alt="Logo do restaurante"></h1>
+            </div>
+        </header>
+
+        <main class="menu">
+            <div>
+                <nav class="background">
+                        <ul class="lista">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="sushi.html">Sushi</a></li>
+                            <li><a href="premium.html">Sushi Premium</a></li>
+                            <li><a href="about.html">Quem somos</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                </nav>
+            </div>
+        </main>
+
+    <!--Contato-->
+        <main class="principal">
+            <h2 class="titulo-principal">FALE CONOSCO</h2>
+            <p class="destaques">Dúvidas, sugestões ou reclamações? 
+                Deixe a sua mensagem que retornaremos o mais breve possível.</p>
+
+            <form>
+                <label for="nomesobrenome">Nome e sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+                <button type="submit" class="enviar">Enviar</button>
+            </form>
+        </main>
+    </body>
+</html>
+
