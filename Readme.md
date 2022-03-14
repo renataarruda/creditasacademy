@@ -1,0 +1,1 @@
+ Testando inclusão de arquivo com o git.
