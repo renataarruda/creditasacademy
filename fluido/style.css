@@ -12,9 +12,10 @@ header {
 
 .menu {
     float: left; 
+    display: table;
     background: #D9A404;
-    width: 15%;
-    height: 100vh;
+    max-width: 27%;
+    height: 200vh;
 }
 
 .lista {
@@ -40,7 +41,7 @@ nav a {
 .inicial {
     text-align: center;
     display: inline;
-    max-width: 80%;
+    max-width: 70%;
 }
 
 .titulo-principal {
