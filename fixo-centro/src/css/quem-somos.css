@@ -1,0 +1,20 @@
+@import url(principal.css);
+
+.texto {
+    font-size: 20px;
+    padding: 10px 30px 0;
+}
+
+.restaurante {
+    height: 80%;
+    width: 80%;
+    padding: 20px;
+}
+
+.local {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+

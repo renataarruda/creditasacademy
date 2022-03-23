@@ -1,0 +1,39 @@
+body {
+    max-width: 940px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0 auto;
+}
+
+header {
+    background:#0D0D0D;
+    width: 940px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.menu {
+    float: left; 
+    background: #D9A404;
+    width: 250px;
+    height: 980px;
+}
+
+.lista {
+    margin: 30px auto;
+    padding: 15px;
+}
+
+nav li {
+    display: block;
+    padding: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
