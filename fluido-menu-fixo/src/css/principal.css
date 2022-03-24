@@ -1,0 +1,39 @@
+@import url(principal.css);
+
+body {
+    max-width: 100%;
+    max-height: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    background:#0D0D0D;
+}
+
+.menu {
+    float: left; 
+    display: inline;
+    background: #D9A404;
+    width: 250px;
+    height: 100vh;
+}
+
+.lista {
+    margin: 30px auto;
+    padding: 15px;
+}
+
+nav li {
+    display: block;
+    padding: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
