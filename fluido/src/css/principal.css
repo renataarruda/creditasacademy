@@ -1,0 +1,37 @@
+body {
+    max-width: 100%;
+    max-height: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    background:#0D0D0D;
+}
+
+/* Menu de navegação */
+
+.menu {
+    float: left; 
+    display: table;
+    background: #D9A404;
+    max-width: 27%;
+    height: 200vh;
+}
+
+.lista {
+    margin: 30px auto;
+    padding: 15px;
+}
+
+nav li {
+    display: block;
+    padding: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}

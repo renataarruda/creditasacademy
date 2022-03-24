@@ -1,0 +1,70 @@
+@import url(principal.css);
+
+.inicial {
+    text-align: center;
+    display: inline;
+    max-width: 70%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #F82000;
+    padding: 40px 0 10px 0;
+    margin: 15px;
+}
+
+.destaques {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.cardapio {
+    display: inline;
+}
+
+.cardapio li {
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    vertical-align: top;
+    padding: 20px 10px;
+}
+
+.home {
+    height: 50%;
+    width: 50%;
+    border: 2px solid #D9A404;
+}
+
+.home:hover {
+    transform: scale(1.1);
+}
+
+h2 {
+    font-size: 20px;
+    color: red;
+    margin-bottom: 5%;
+}
+
+.galeria {
+    height: 50%;
+    width: 50%;
+    border: 2px solid #D9A404;
+}
+
+.galeria:hover {
+    transform: scale(1.1);
+}
+
+.prato-descricao {
+    padding: 5%;
+}
+
+.prato-valor {
+    font-weight: bold;
+    font-size: 20px;
+}
